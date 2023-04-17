@@ -1,0 +1,24 @@
+#contacts {
+    width: 60vw;
+    display: grid;
+    grid-template-areas:
+        "address hours"
+        "address info";
+    gap: 1em;
+        
+}
+
+#hours {
+    grid-area: "hours";
+    height: 200px;
+}
+
+#address {
+   
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#info {
+    grid-area: "info";
+}

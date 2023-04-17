@@ -1,0 +1,58 @@
+#services-box {
+  width: 60vw;
+}
+
+#services-container {
+  width: 60vw;
+  margin: auto;
+}
+
+#categ-switch select {
+  font-size: 16px;
+  text-align: center;
+}
+
+#categ-switch select {
+  border: 1px solid grey;
+  padding: 0.2em;
+  border-radius: 30px;
+}
+
+#services {
+
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  margin: auto;
+}
+
+#services>div {
+  border-bottom: 1px solid rgb(166, 165, 165);
+
+}
+
+#services-nav {
+  display: flex;
+  gap: 2em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+}
+
+#services-nav a {
+  border: 1px solid black;
+  padding: 0.5em;
+  width: 200px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#services-nav a:hover {
+  background-color: aquamarine;
+  transition: 0.4s;
+}
+
+#services-nav .active {
+  background-color: aqua;
+  font-weight: bold;
+}

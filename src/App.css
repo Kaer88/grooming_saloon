@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap");
+
+html {
+  --defaultFontType: 'Poppins', sans-serif; ; 
+  --defaultFontColor: rgb(31, 117, 5);
+  --defaultFontSize: 17px;
+  --headerFontSize: 18px;
+  --logoFont: 'Josefin Sans', sans-serif;
+  --logoSize: 26px; 
+  --mainContentWidth: 85vw;
+  --headerContentWidth:90vw;
+  --sectionFontSize:20px;
+  --footerFontSize: 12px; 
+  --headerBackground: white;
+
+  box-sizing: border-box;
+
+}
+
+body {
+  margin:0px;
+  font-family:var(--defaultFontType);
+
+}
+
+.darkmode {
+  background-color: rgb(22,22,23);
+  color: aliceblue;
+}
+
+.lightmode {
+  background-color: white;
+  color: black;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

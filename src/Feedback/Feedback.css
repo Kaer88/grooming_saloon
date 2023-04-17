@@ -1,0 +1,33 @@
+.feedback-element {
+    display:flex;
+    width: 500px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 0.5em;
+
+}
+
+#feedback-container{
+    width: 70vw;
+    
+    
+}
+#feedback-container h1 {
+    text-align: center;
+    font-size:2.8rem;
+    color:var(--defaultFontColor);
+    border-bottom: 1px solid #333;
+    width:100%
+}
+
+#feedback-container > div{
+    width: 70vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.img-container img {
+    height: 300px;
+
+}

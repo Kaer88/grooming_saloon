@@ -1,0 +1,29 @@
+#welcome-box {
+    margin:auto;
+    text-align: center;
+    width: 50vw;
+    font-family: var(--defaultFontType);
+    display: flex;
+    gap: 0.5em;
+    
+}
+
+#intro {
+    padding:2em;
+    border-radius: 10px;
+    box-shadow: 10px 10px 33px 0px rgba(0,0,0,0.75);
+    
+}
+
+.offerButton {
+    background-color: green;
+    color:white;
+    text-decoration: none;
+    padding:0.7em;
+    border-radius:15px;
+    display:block;
+    width:150px;
+    text-align: center;
+    margin:auto;
+    margin-bottom:1em;
+}
