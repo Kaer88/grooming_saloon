@@ -12,10 +12,15 @@ html {
   --headerContentWidth:90vw;
   --sectionFontSize:20px;
   --footerFontSize: 12px;
-  --bodyBackground: rgb(185, 198, 174);
-  --contentBackground: rgb(71, 64, 86); 
-  --headerBackground: rgb(138, 149, 165);
-  --navBarBackground: rgb(117, 112, 131);
+
+
+  --bodyBackground: #efe2ba;
+  --contentBackground: #fbeec1; 
+  --headerBackground: #99ced3;
+  --navBarBackground: #a1c3d1;
+
+
+
   box-sizing: border-box;
  
 
