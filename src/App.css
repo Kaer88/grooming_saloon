@@ -11,18 +11,24 @@ html {
   --mainContentWidth: 85vw;
   --headerContentWidth:90vw;
   --sectionFontSize:20px;
-  --footerFontSize: 12px; 
-  --headerBackground: white;
-
+  --footerFontSize: 12px;
+  --bodyBackground: rgb(185, 198, 174);
+  --contentBackground: rgb(71, 64, 86); 
+  --headerBackground: rgb(138, 149, 165);
+  --navBarBackground: rgb(117, 112, 131);
   box-sizing: border-box;
+ 
 
 }
 
 body {
   margin:0px;
   font-family:var(--defaultFontType);
+  background-color: var(--bodyBackground);
 
 }
+
+
 
 .darkmode {
   background-color: rgb(22,22,23);
@@ -30,12 +36,12 @@ body {
 }
 
 .lightmode {
-  background-color: white;
+ 
   color: black;
 }
 
-.App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+#main-content {
+  height: 100%;
 }
+

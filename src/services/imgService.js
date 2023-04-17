@@ -1,8 +1,8 @@
 export const beforeAfterPics = [
     {
         pics: {
-            srcA: "http://localhost:3000/img/img-before-after/1-1.jpg",
-            srcB: "http://localhost:3000/img/img-before-after/1-2.jpg",
+            srcA: "./img/img-before-after/1-1.jpg",
+            srcB: "./img/img-before-after/1-2.jpg",
 
         },
         feedback: {
@@ -14,8 +14,8 @@ export const beforeAfterPics = [
     },
     {
         pics: {
-            srcA: "http://localhost:3000/img/img-before-after/2-1.jpg",
-            srcB: "http://localhost:3000/img/img-before-after/2-2.jpg",
+            srcA: "./img/img-before-after/2-1.jpg",
+            srcB: "./img/img-before-after/2-2.jpg",
 
         },
         feedback: {
@@ -29,13 +29,13 @@ export const beforeAfterPics = [
 
 export const pictures = [
     {
-        src: "http://localhost:3000/img/viber_image_2022-12-16_16-46-43-891.jpg", alt: "gallery"
+        src: "./img/viber_image_2022-12-16_16-46-43-891.jpg", alt: "gallery"
     },
     {
-        src: "http://localhost:3000//img/viber_image_2022-12-21_16-22-11-073.jpg", alt: "gallery"
+        src: "./img/viber_image_2022-12-21_16-22-11-073.jpg", alt: "gallery"
     },
     {
-        src: "http://localhost:3000//img/viber_image_2023-01-03_11-51-29-458.jpg", alt: "gallery"
+        src: "./img/viber_image_2023-01-03_11-51-29-458.jpg", alt: "gallery"
     }
 
 

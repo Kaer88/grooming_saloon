@@ -4,11 +4,11 @@ import { darkModeContext } from "../DarkMode/DarkModeContext"
 
 export default function ServiceListBox() {
 
-    const darkModeToggled = useContext(darkModeContext)
+    const { darkModeToggled } = useContext(darkModeContext)
 
     return (
         <div id="services-box">
-            <div id="services-nav" style = {darkModeToggled ? { backgroundColor : "rgb(22,22,23)", color : "white" } : { backgroundColor : "white", color : "black" }}>
+            <div id="services-nav">
                 <NavLink to="base">Alap szolgáltatások</NavLink>
                 <NavLink to="size">Méret szerinti árazás</NavLink>
                 <NavLink to="info">Felárak</NavLink>

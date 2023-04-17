@@ -8,19 +8,27 @@ import { darkModeContext } from './DarkMode/DarkModeContext';
 
 
 
+
 function App() {
 
   const [darkModeToggled, setDarkModeToggled] = useState(false)
 
 
   return (
-    <div className="App" style = {darkModeToggled ? { backgroundColor : "rgb(22,22,23)", color : "white" } : { backgroundColor : "white", color : "black" }}>
-      <darkModeContext.Provider value={{ darkModeToggled, setDarkModeToggled }}>
-        <Header />
-        <Outlet />
-        <Footer  />
-      </darkModeContext.Provider>
+    <div id="bg">
+      <div className="App">
+        <darkModeContext.Provider value={{ darkModeToggled, setDarkModeToggled }}>
+
+          <Header />
+
+          <Outlet />
+
+          <Footer />
+
+        </darkModeContext.Provider>
+      </div>
     </div>
+
   );
 }
 
