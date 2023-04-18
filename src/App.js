@@ -15,18 +15,12 @@ function App() {
 
 
   return (
-    <div id="bg">
       <div className="App">
         <darkModeContext.Provider value={{ darkModeToggled, setDarkModeToggled }}>
-
           <Header />
-
           <Outlet />
-
           <Footer />
-
         </darkModeContext.Provider>
-      </div>
     </div>
 
   );
