@@ -42,7 +42,7 @@ const router = createBrowserRouter([
           },
           {
             path: "/services/info",
-            element: <ServiceListBySize />
+            element: <Important />
           },
         ]
       },
