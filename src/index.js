@@ -40,10 +40,10 @@ const router = createBrowserRouter([
             path: "/services/size",
             element: <ServiceListBySize />
           },
-          {
-            path: "/services/info",
-            element: <Important />
-          },
+          // {
+          //   path: "/services/info",
+          //   element: <Important />
+          // },
         ]
       },
       {
